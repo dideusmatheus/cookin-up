@@ -1,25 +1,16 @@
 <template>
-  <h1>Meu primeiro projeto Vue!</h1>
+  <BannerTop></BannerTop>
 </template>
 
 <script>
-
-
-export default {
-  name: 'App',
-  components: {
-
+  import BannerTop from '@/components/BannerTop.vue'
+  export default {
+    components: {
+      BannerTop
+    }
   }
-}
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+  
 </style>
