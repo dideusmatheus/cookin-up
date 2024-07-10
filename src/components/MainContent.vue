@@ -18,12 +18,17 @@
 
     </section>
 
+    <SelecIngredient></SelecIngredient>
+
   </main>
 </template>
 
 <script>
+    import SelecIngredient from '@/components/SelectIngredients.vue'
     export default {
-
+        components: {
+            SelecIngredient,
+        },
         data() {
             return {
                 ingredientes: ['Alho', 'Manteiga', 'Orégano']
